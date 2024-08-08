@@ -1,0 +1,68 @@
+{
+  "$$ClassName" : "TCastleTransform",
+  "CenterPersistent" : {
+    "$$ClassName" : "TCastleVector3Persistent"
+  },
+  "Name" : "Transform1",
+  "RotationPersistent" : {
+    "$$ClassName" : "TCastleVector4RotationPersistent"
+  },
+  "ScaleOrientationPersistent" : {
+    "$$ClassName" : "TCastleVector4Persistent"
+  },
+  "ScalePersistent" : {
+    "$$ClassName" : "TCastleVector3Persistent"
+  },
+  "TranslationPersistent" : {
+    "$$ClassName" : "TCastleVector3Persistent"
+  },
+  "$Children" : [
+    {
+      "$$ClassName" : "TCastleSphere",
+      "CenterPersistent" : {
+        "$$ClassName" : "TCastleVector3Persistent"
+      },
+      "ColorPersistent" : {
+        "$$ClassName" : "TCastleColorPersistent",
+        "Blue" : 2.3529412224888802E-002,
+        "Green" : 0.0000000000000000E+000
+      },
+      "Name" : "Sphere1",
+      "Radius" : 2.5000000000000000E-001,
+      "RenderOptions" : {
+        "$$ClassName" : "TCastleScene.TSceneRenderOptions",
+        "WireframeColorPersistent" : {
+          "$$ClassName" : "TCastleColorRGBPersistent"
+        }
+      },
+      "RotationPersistent" : {
+        "$$ClassName" : "TCastleVector4RotationPersistent"
+      },
+      "ScaleOrientationPersistent" : {
+        "$$ClassName" : "TCastleVector4Persistent"
+      },
+      "ScalePersistent" : {
+        "$$ClassName" : "TCastleVector3Persistent"
+      },
+      "TranslationPersistent" : {
+        "$$ClassName" : "TCastleVector3Persistent"
+      }
+    }
+  ],
+  "$Behaviors" : [
+    {
+      "$$ClassName" : "TCastleSphereCollider",
+      "Name" : "SphereCollider1"
+    },
+    {
+      "$$ClassName" : "TCastleRigidBody",
+      "AngularVelocityPersistent" : {
+        "$$ClassName" : "TCastleVector3Persistent"
+      },
+      "LinearVelocityPersistent" : {
+        "$$ClassName" : "TCastleVector3Persistent"
+      },
+      "Name" : "MainRigidBody"
+    }
+  ]
+}
