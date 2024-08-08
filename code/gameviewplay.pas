@@ -110,9 +110,9 @@ begin
   EnemyRigidBody := Enemy.FindBehavior(TCastleRigidBody) as TCastleRigidBody;
   EnemyRigidBody.Exists := false;
 
-  WalkBehavior := Enemy1.FindBehavior(TEnemyWalk) as TEnemyWalk;
+  WalkBehavior := Enemy.FindBehavior(TEnemyWalk) as TEnemyWalk;
   if WalkBehavior <> nil then
-    Enemy1.RemoveBehavior(WalkBehavior);
+    Enemy.RemoveBehavior(WalkBehavior);
 end;
 
 procedure TViewPlay.Start;
