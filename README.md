@@ -6,6 +6,24 @@ No cheating, this was created in ~1 hour, from absolute scratch and you can watc
 
 TODO: Add link to YouTube video etc. when available.
 
+## Features shown
+
+- First of all, using [Castle Game Engine](https://castle-engine.io/), our open-source 3D and 2D game engine with comfortable [editor](https://castle-engine.io/editor) and powerful API using [modern Pascal](https://castle-engine.io/why_pascal).
+
+- 2 [views](https://castle-engine.io/views), main menu and game.
+
+- [Viewport with 3D scenes](https://castle-engine.io/viewport_and_scenes) designed in the editor.
+
+- [Handling input](https://castle-engine.io/view_events) in code, to move the player.
+
+- Using [reusable designs](https://castle-engine.io/reuse_design) to define a missile (ball with a `TCastleRigidBody` component.
+
+- Using [TCastleComponentFactory](https://castle-engine.io/apidoc/html/CastleComponentSerialize.TCastleComponentFactory.html) and [TCastleTimer](https://castle-engine.io/apidoc/html/CastleControls.TCastleTimer.html) to spawn the missiles.
+
+- Using [physics](https://castle-engine.io/physics) with collision events to detect when the missile hits the enemy.
+
+- Using [behaviors](https://castle-engine.io/behaviors) to implement simple movement on the enemy.
+
 ## Screenshots
 
 ![Screenshot from editor](screenshot_editor.png)
