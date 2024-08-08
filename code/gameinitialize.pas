@@ -1,10 +1,13 @@
+{
+  Copyright 2024-2024 Michalis Kamburelis.
+  This file is part of "Demo game made during Dev Days of Summer 2024".
+  It is free software, see LICENSE in this repo.
+  ----------------------------------------------------------------------------
+}
+
 { Game initialization.
   This unit is cross-platform.
-  It will be used by the platform-specific program or library file.
-
-  Feel free to use this code as a starting point for your own projects.
-  This template code is in public domain, unlike most other CGE code which
-  is covered by BSD or LGPL (see https://castle-engine.io/license). }
+  It will be used by the platform-specific program or library file. }
 unit GameInitialize;
 
 interface

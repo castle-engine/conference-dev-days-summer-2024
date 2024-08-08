@@ -1,3 +1,11 @@
+{
+  Copyright 2024-2024 Michalis Kamburelis.
+  This file is part of "Demo game made during Dev Days of Summer 2024".
+  It is free software, see LICENSE in this repo.
+  ----------------------------------------------------------------------------
+}
+
+{ The main game logic. }
 unit GameViewPlay;
 
 interface
