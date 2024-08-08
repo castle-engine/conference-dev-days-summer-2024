@@ -4,9 +4,9 @@
 castle-engine-output
 
 # Unix executable
-pirates
+./pirates
 # Windows executable
-pirates.exe
+./pirates.exe
 # Delphi Windows executable when build by Delphi IDE
 pirates_standalone.exe
 # Library files placed alongside Windows executable
