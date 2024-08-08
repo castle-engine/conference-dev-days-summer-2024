@@ -1,4 +1,4 @@
-# Demo game made during Dev Days of Summer 2024
+# Pirate shooting balls at skeletons, using physics
 
 The project developed during a presentation _"Coding games using Castle Game Engine and Delphi"_ during https://www.codegear.com/DevDaysofSummer/ .
 
@@ -10,7 +10,10 @@ TODO: Add link to YouTube video etc. when available.
 
 - reworked `OnCollisionEnter` to use 1 method `SkeletonCollides` for all 3 enemies,
 - fixed FPC compatilibity,
-- added README and screnshots.
+- added README and screnshots,
+- added `.github` workflow to build the project using [GitHub Actions](https://castle-engine.io/github_actions).
+
+Download the compiled binaries from [snapshot release](https://github.com/castle-engine/conference-dev-days-summer-2024/releases/tag/snapshot).
 
 ## Features shown
 
