@@ -57,7 +57,7 @@ end;
 procedure TViewMain.Start;
 begin
   inherited;
-  ButtonPlay.OnClick := ClickPlay;
+  ButtonPlay.OnClick := {$ifdef FPC}@{$endif} ClickPlay;
 end;
 
 procedure TViewMain.Update(const SecondsPassed: Single; var HandleInput: boolean);
