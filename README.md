@@ -50,7 +50,10 @@ Code:
 Data (all pirate-themed assets):
 - By [Quaternius](https://quaternius.com/).
 - License: _public domain_. Literally do what you want.
-- In this project, we used many assets from his [Pirate Kit](https://quaternius.com/packs/piratekit.html). The subdirectory `data/pirates/` in this repo contains a copy of the assets, referred to from engine design files (`.castle-user-interface`) setup using the engine editor.
+- In this project, we used many assets from his [Pirate Kit](https://quaternius.com/packs/piratekit.html).
+
+    The subdirectory `data/pirates/` in this repo contains a subset of the assets from this pack. We only removed unused assets to minimize [snapshot release](https://github.com/castle-engine/conference-dev-days-summer-2024/releases/tag/snapshot) size. We refer to the assets there from engine design files (`.castle-user-interface`) created using the engine editor.
+
 - [Support the creator on Patreon](https://www.patreon.com/quaternius)!
 
 ## Building
