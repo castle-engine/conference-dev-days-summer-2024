@@ -82,7 +82,8 @@ begin
   Enemy1.PlayAnimation('Death', false);
   EnemyRigidBody1.Exists := false;
   Walk := Enemy1.FindBehavior(TEnemyWalk) as TEnemyWalk;
-  Enemy1.RemoveBehavior(Walk);
+  if Walk <> nil then
+    Enemy1.RemoveBehavior(Walk);
 end;
 
 procedure TViewPlay.Skeleton2Collides(
@@ -93,7 +94,8 @@ begin
   Enemy2.PlayAnimation('Death', false);
   EnemyRigidBody2.Exists := false;
   Walk := Enemy2.FindBehavior(TEnemyWalk) as TEnemyWalk;
-  Enemy2.RemoveBehavior(Walk);
+  if Walk <> nil then
+    Enemy2.RemoveBehavior(Walk);
 end;
 
 procedure TViewPlay.Skeleton3Collides(
@@ -104,7 +106,8 @@ begin
   Enemy3.PlayAnimation('Death', false);
   EnemyRigidBody3.Exists := false;
   Walk := Enemy3.FindBehavior(TEnemyWalk) as TEnemyWalk;
-  Enemy3.RemoveBehavior(Walk);
+  if Walk <> nil then
+    Enemy3.RemoveBehavior(Walk);
 end;
 
 procedure TViewPlay.Start;
