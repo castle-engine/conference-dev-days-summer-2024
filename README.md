@@ -6,6 +6,12 @@ No cheating, this was created in ~1 hour, from absolute scratch and you can watc
 
 TODO: Add link to YouTube video etc. when available.
 
+... after the recording I only did:
+
+- reworked `OnCollisionEnter` to use 1 method `SkeletonCollides` for all 3 enemies,
+- fixed FPC compatilibity,
+- added README and screnshots.
+
 ## Features shown
 
 - First of all, using [Castle Game Engine](https://castle-engine.io/), our open-source 3D and 2D game engine with comfortable [editor](https://castle-engine.io/editor) and powerful API using [modern Pascal](https://castle-engine.io/why_pascal).
