@@ -536,8 +536,9 @@
             "Url" : "castle-data:/pirates/glTF/Environment_LargeBones.gltf",
             "$Behaviors" : [
               {
-                "$$ClassName" : "TCastleBoxCollider",
-                "Name" : "BoxCollider4"
+                "$$ClassName" : "TCastleMeshCollider",
+                "Mesh" : "SceneEnvironmentLargeBones1",
+                "Name" : "MeshCollider5"
               },
               {
                 "$$ClassName" : "TCastleRigidBody",
@@ -547,12 +548,13 @@
                 "LinearVelocityPersistent" : {
                   "$$ClassName" : "TCastleVector3Persistent"
                 },
-                "Name" : "RigidBody6"
+                "Name" : "RigidBody2"
               }
             ]
           },
           {
             "$$ClassName" : "TCastleScene",
+            "Cache" : true,
             "CenterPersistent" : {
               "$$ClassName" : "TCastleVector3Persistent"
             },
@@ -600,6 +602,7 @@
           },
           {
             "$$ClassName" : "TCastleScene",
+            "Cache" : true,
             "CenterPersistent" : {
               "$$ClassName" : "TCastleVector3Persistent"
             },
@@ -647,6 +650,7 @@
           },
           {
             "$$ClassName" : "TCastleScene",
+            "Cache" : true,
             "CenterPersistent" : {
               "$$ClassName" : "TCastleVector3Persistent"
             },
@@ -694,6 +698,7 @@
           },
           {
             "$$ClassName" : "TCastleScene",
+            "Cache" : true,
             "CenterPersistent" : {
               "$$ClassName" : "TCastleVector3Persistent"
             },
@@ -720,7 +725,24 @@
               "X" : 6.4624328613281250E+000,
               "Z" : -8.1856822967529297E+000
             },
-            "Url" : "castle-data:/pirates/glTF/Environment_Cliff4.gltf"
+            "Url" : "castle-data:/pirates/glTF/Environment_Cliff4.gltf",
+            "$Behaviors" : [
+              {
+                "$$ClassName" : "TCastleMeshCollider",
+                "Mesh" : "SceneEnvironmentCliff44",
+                "Name" : "MeshCollider4"
+              },
+              {
+                "$$ClassName" : "TCastleRigidBody",
+                "AngularVelocityPersistent" : {
+                  "$$ClassName" : "TCastleVector3Persistent"
+                },
+                "LinearVelocityPersistent" : {
+                  "$$ClassName" : "TCastleVector3Persistent"
+                },
+                "Name" : "RigidBody1"
+              }
+            ]
           }
         ]
       },

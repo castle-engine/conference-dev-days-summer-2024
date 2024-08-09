@@ -8,10 +8,11 @@ TODO: Add link to YouTube video etc. when available.
 
 ... after the recording I only did:
 
-- reworked `OnCollisionEnter` to use 1 method `SkeletonCollides` for all 3 enemies,
+- reworked `OnCollisionEnter` to use 1 method `SkeletonCollides` for all 3 enemies (during recording I already mentioned this bit of code could be better, I was just in a hurry),
 - fixed FPC compatilibity,
 - added README and screnshots,
-- added `.github` workflow to build the project using [GitHub Actions](https://castle-engine.io/github_actions).
+- added `.github` workflow to build the project using [GitHub Actions](https://castle-engine.io/github_actions),
+- better colliders, cache to load cliffs faster.
 
 Download the compiled binaries from [snapshot release](https://github.com/castle-engine/conference-dev-days-summer-2024/releases/tag/snapshot).
 
