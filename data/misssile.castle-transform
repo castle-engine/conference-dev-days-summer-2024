@@ -44,6 +44,8 @@
       "ScalePersistent" : {
         "$$ClassName" : "TCastleVector3Persistent"
       },
+      "Slices" : 8,
+      "Stacks" : 6,
       "TranslationPersistent" : {
         "$$ClassName" : "TCastleVector3Persistent"
       }
