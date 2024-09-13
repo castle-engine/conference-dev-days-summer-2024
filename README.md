@@ -1,18 +1,6 @@
 # Pirate shooting balls at skeletons, using physics
 
-The project developed during a presentation _"Coding games using Castle Game Engine and Delphi"_ during https://www.codegear.com/DevDaysofSummer/ .
-
-Watch the associated video: [Coding games using Castle Game Engine and Delphi (Dev Days of Summer 2024)](https://www.youtube.com/watch?v=xvAmuPD4PrU).
-
-No cheating, this was created in ~1 hour, from absolute scratch and you can watch how it happened and see all my mistakes on the video!
-
-... after the recording I only did:
-
-- reworked `OnCollisionEnter` to use 1 method `SkeletonCollides` for all 3 enemies (during recording I already mentioned this bit of code could be better, I was just in a hurry),
-- fixed FPC compatilibity,
-- added README and screnshots,
-- added `.github` workflow to build the project using [GitHub Actions](https://castle-engine.io/github_actions),
-- better colliders, cache to load cliffs faster.
+The project developed during a presentation [Coding games using Castle Game Engine and Delphi (Dev Days of Summer 2024)](https://www.youtube.com/watch?v=xvAmuPD4PrU).
 
 Download the compiled binaries from [snapshot release](https://github.com/castle-engine/conference-dev-days-summer-2024/releases/tag/snapshot).
 
@@ -40,6 +28,18 @@ Download the compiled binaries from [snapshot release](https://github.com/castle
 ![Screenshot 1](screenshot1.png)
 ![Screenshot 2](screenshot2.png)
 ![Screenshot 3](screenshot3.png)
+
+## Version at presentation
+
+No cheating, this was created in ~1 hour, from absolute scratch and you can watch how it happened and see all my mistakes on the video!
+
+... after the recording I only did really small stuff:
+
+- reworked `OnCollisionEnter` to use 1 method `SkeletonCollides` for all 3 enemies (during recording I already mentioned this bit of code could be better, I was just in a hurry),
+- fixed FPC compatilibity,
+- added README and screnshots,
+- added `.github` workflow to build the project using [GitHub Actions](https://castle-engine.io/github_actions),
+- better colliders, cache to load cliffs faster.
 
 ## Authors and license
 
