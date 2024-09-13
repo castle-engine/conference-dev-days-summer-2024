@@ -4,7 +4,7 @@ The project developed during a presentation _"Coding games using Castle Game Eng
 
 No cheating, this was created in ~1 hour, from absolute scratch and you can watch how it happened and see all my mistakes on the video!
 
-TODO: Add link to YouTube video etc. when available.
+Watch the associated video: [Coding games using Castle Game Engine and Delphi (Dev Days of Summer 2024)](https://www.youtube.com/watch?v=xvAmuPD4PrU).
 
 ... after the recording I only did:
 
